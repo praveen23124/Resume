@@ -1,0 +1,231 @@
+.heading {
+  color: #66BFBF;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900;
+}
+.firstName {
+  font-size: 50px;
+  line-height: 20px;
+  font-family: 'Fira Sans', sans-serif;
+  color: #7F8487;
+  margin-left: 120px;
+  margin-bottom: 20px;
+}
+.lastName {
+  font-size: 50px;
+  line-height: 20px;
+  font-family: 'Fira Sans', sans-serif;
+  color: #7F8487;
+  margin-left: 120px;
+}
+.firstLine{
+  width: 60%;
+  margin-top: 1px;
+  margin-left: 110px;
+  margin-right: auto;
+  margin-bottom: 18px;
+  position: relative;
+  border: none;
+  height: 2px;
+  background: grey;
+}
+.contact{
+  margin-left: 125px;
+  margin-top: 2px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  margin-bottom: 1px;
+  line-height: 15px;
+  margin-top: 15px;
+  color: #3D3C42;
+  display: inline;
+}
+.contact-info{
+  margin-left: 160px;
+  line-height: 1px;
+  margin-bottom: 10px;
+}
+.secondLine{
+  width: 35%;
+  margin-top: 1px;
+  margin-left: 110px;
+  margin-right: auto;
+  border: none;
+  height: 2px;
+  background: grey;
+}
+#firstofsecondline{
+  margin-bottom: 0px;
+}
+.eduHead{
+  /* margin-left: 125px; */
+  margin: 0px auto 0px 125px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 35px;
+}
+.education-details{
+  margin-left: 150px;
+  line-height: 0px;
+}
+.year{
+    font-weight: 500;
+    font-size: 30px;
+}
+.institutions-names{
+  font-size: 20px;
+}
+.thirdLine{
+  width: 55%;
+  margin-top: 1px;
+  margin-left: 110px;
+  margin-right: auto;
+  border: none;
+  height: 2px;
+  background: grey;
+}
+.frontendHeadline{
+  margin: 0px auto 0px 125px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 35px;
+}
+#firstOfThirdLine{
+  margin-bottom: 0px;
+}
+.photo{
+  width: 12%;
+  position: absolute;
+left: 80%;
+}
+.frontendProjects{
+  margin: 0px 0px 20px 160px;
+  line-height: 1.5;
+
+}
+.frontendProjectsList{
+  color: black;
+  font-size: 1.5rem;
+  display: block;
+}
+.fourthLine{
+  width: 50%;
+  margin-top: 1px;
+  margin-left: 110px;
+  margin-right: auto;
+  border: none;
+  height: 2px;
+  background: grey;
+}
+.backendHeadline{
+  margin: 0px auto 0px 125px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 35px;
+}
+#firstOfFourthLine{
+  margin-bottom: 0px;
+}
+.backendProjects{
+  width: 75%;
+  margin-left: 160px;
+  line-height: 1;
+  text-align: left;
+}
+.backendProjectsList{
+  font-size: 1.5rem;
+}
+.firstcolumn {
+  float: left;
+  width: 50%;
+  height: 900px;
+}
+.secondcolumn {
+  float: right;
+  width: 50%;
+  height: 900px;
+}
+.fifthLine{
+  width: 60%;
+  margin-top: 1px;
+  margin-left: 90px;
+  border: none;
+  height: 2px;
+  background: grey;
+}
+#firstOfFifthLine{
+    margin-bottom: 0px;
+}
+.technicalHeading{
+  margin: 0px auto 0px 100px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 35px;
+}
+.webdevHeading{
+  margin: 0px auto 0px 85px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 35px;
+}
+.webdevList{
+  margin-left: 120px;
+  line-height: 0.5;
+}
+.webdevHeadList{
+    font-size: 25px;
+}
+.webdevinfoList{
+  font-size: 20px;
+}
+.technicalWebFrontInfo{
+  line-height: 0;
+}
+.technicalWebBackInfo{
+  line-height: 0;
+}
+.programLangHeading{
+  margin: 0px auto 0px 85px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 35px;
+}
+.programLangList{
+  font-size: 35px;
+  margin-left: 170px;
+  line-height: 0;
+  width: 15%;
+}
+.sixthLine{
+  width: 18%;
+  margin-top: 1px;
+  margin-left: 90px;
+  border: none;
+  height: 2px;
+  background: grey;
+}
+
+#firstOfSixthLine{
+  margin-bottom: 0px;
+}
+.skillsHeading{
+  margin: 0px auto 0px 85px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 35px;
+  margin-left: 95px
+}
+.skillList{
+  margin-left: 120px;
+  font-size: 20px;
+  line-height: 0.5;
+}
+.intrestHeadline{
+  margin: 0px auto 0px 85px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 35px;
+}
+.intrestList{
+  margin: 5px 0px 0px 90px;
+  font-size: 20px;
+}
+.vertialLine{
+  width: 1px;
+  height: 190px;
+  position: absolute;
+  left: 57%;
+  top: 165%;
+}
