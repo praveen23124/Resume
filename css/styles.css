@@ -46,7 +46,7 @@
   margin-bottom: 10px;
 }
 .secondLine{
-  width: 35%;
+  width: 40%;
   margin-top: 1px;
   margin-left: 110px;
   margin-right: auto;
@@ -54,6 +54,12 @@
   height: 2px;
   background: grey;
 }
+@media (max-width: 1000px) {
+  .secondLine{
+    width: 55%;
+  }
+}
+
 #firstofsecondline{
   margin-bottom: 0px;
 }
@@ -67,6 +73,12 @@
   margin-left: 150px;
   line-height: 0px;
 }
+
+@media (max-width: 1000px) {
+  .education-details{
+    margin-left: 60px;
+  }
+}
 .year{
     font-weight: 500;
     font-size: 30px;
@@ -74,8 +86,9 @@
 .institutions-names{
   font-size: 20px;
 }
+
 .thirdLine{
-  width: 55%;
+  width: 60%;
   margin-top: 1px;
   margin-left: 110px;
   margin-right: auto;
@@ -97,17 +110,24 @@
 left: 80%;
 }
 .frontendProjects{
-  margin: 0px 0px 20px 160px;
+  margin-bottom: 20px;
+  margin-left: 160px;
   line-height: 1.5;
-
 }
+
+@media (max-width: 1000px) {
+  .frontendProjects{
+    margin-left: 60px;
+  }
+}
+
 .frontendProjectsList{
   color: black;
   font-size: 1.5rem;
   display: block;
 }
 .fourthLine{
-  width: 50%;
+  width: 55%;
   margin-top: 1px;
   margin-left: 110px;
   margin-right: auto;
@@ -129,6 +149,12 @@ left: 80%;
   line-height: 1;
   text-align: left;
 }
+
+@media (max-width: 1000px) {
+  .backendProjects{
+    margin-left: 60px;
+  }
+}
 .backendProjectsList{
   font-size: 1.5rem;
 }
@@ -143,7 +169,7 @@ left: 80%;
   height: 900px;
 }
 .fifthLine{
-  width: 60%;
+  width: 62%;
   margin-top: 1px;
   margin-left: 90px;
   border: none;
@@ -166,6 +192,11 @@ left: 80%;
 .webdevList{
   margin-left: 120px;
   line-height: 0.5;
+}
+@media (max-width: 1000px) {
+  .webdevList{
+    margin-left: 40px;
+  }
 }
 .webdevHeadList{
     font-size: 25px;
@@ -191,12 +222,18 @@ left: 80%;
   width: 50%;
 }
 .sixthLine{
-  width: 18%;
+  width: 20%;
   margin-top: 1px;
   margin-left: 90px;
   border: none;
   height: 2px;
   background: grey;
+}
+
+@media (max-width: 1000px) {
+  .sixthLine{
+    width: 30%;
+  }
 }
 
 #firstOfSixthLine{
@@ -221,4 +258,17 @@ left: 80%;
 .intrestList{
   margin: 5px 0px 0px 90px;
   font-size: 20px;
+}
+.vertialLine{
+  width: 1px;
+  height: 190px;
+  position: absolute;
+  left: 59%;
+  top: 181%;
+}
+@media (max-width: 1000px) {
+  .vertialLine{
+    top: 205%;
+    left: 60%;
+  }
 }
